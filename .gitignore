@@ -1,0 +1,84 @@
+
+# =====================================
+# Dependencies
+# =====================================
+node_modules/
+.pnp
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+
+# =====================================
+# Next.js
+# =====================================
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# =====================================
+# Environment Variables / Secrets
+# =====================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# =====================================
+# Vercel
+# =====================================
+.vercel/
+
+# =====================================
+# Testing - Vitest / Playwright
+# =====================================
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# =====================================
+# Supabase Local Development
+# =====================================
+supabase/.branches/
+supabase/.temp/
+
+# =====================================
+# Logs
+# =====================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================================
+# Operating Systems
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# IDE / Editors
+# =====================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# Temporary Files
+# =====================================
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
